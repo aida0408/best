@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 310px;
+    height: 76px;
+    font-size: 25px;
+    line-height: 37px;
+    color: #170C04;
+    margin-bottom: 11px;
+    margin-top: 40px;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 298px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #170C04;
+    margin: 24px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+.row{
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+.col-4{
+    padding: 0 15px;
+    width: 33.33333%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 360px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 96px ;
+}
+.box svg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.see{
+    margin-bottom: 18px;
+}
+.quality-img{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.products-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 505px;
+    height: 42px;
+    font-size: 32.25px;
+    line-height: 48px;
+    color: #170C04;
+    margin-top: 113px;
+    margin-bottom: 18px;
+}
+.products-desc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 505px;
+    height: 65px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #170C04;
+    margin-bottom: 25px
+}
+.col-6{
+    padding: 0 15px;
+    width: 50%;
+}
+.col-4{
+    padding: 0 15px;
+    width: 33.33333%;
+}
